@@ -5,15 +5,15 @@ body{
 
 #divMarca{
     width: 100%;
-    height: 270px;
+    height: 210px;
     background-color: rgb(245, 176, 65);
 
 }
 
 #imgLogo{
-    width: 50%;
-    height: 270px;
-    margin: 0px 25% 0px 25%;
+    width: 30%;
+    height: 180px;
+    margin: 25px 35% 0px 35%;
 }
 
 
@@ -38,4 +38,10 @@ body{
 .listItem a:hover {
   background-color:green;
   color: white;
+}
+
+#imagen1{
+    opacity: 0.8;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+    width: 100%;
 }
