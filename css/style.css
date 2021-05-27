@@ -1,21 +1,31 @@
-
 body{
-    background-color: beige;
+   background-image: url(/img/gym1.jpg);
+   background-repeat: no-repeat;
+   background-size: 99%;
+   background-position-x: center;
+   background-position-y:top;
+   background-color: white;
+   background-attachment:fixed;
+   font-family: 'Roboto', sans-serif, Arial, Helvetica;
 }
 
-#divMarca{
-    width: 100%;
-    height: 210px;
-    background-color: rgb(245, 176, 65);
-
+header{
+  height:fit-content;
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+  opacity: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #imgLogo{
-    width: 40%;
-    height: 180px;
-    margin: 25px 30% 0px 30%;
+    width: 180px;
+    height: 60px;
+    margin: 15px 0px 10px 10px;
 }
-
 
 #botoneraPrincipal {
   list-style-type: none;
@@ -23,15 +33,16 @@ body{
   padding: 0;
   overflow: hidden;
   background-color:#F39C12;
-  width: 100%;
+  opacity: 80%;
 }
 
 .listItem a {
   float: left;
   display: block;
-  color: black;
+  color:black;
+  font-weight:600;
   text-align: center;
-  padding: 25px 25px;
+  padding: 14px 25px;
   text-decoration:none;
 }
 
@@ -40,8 +51,358 @@ body{
   color: white;
 }
 
-#imagen1{
-    opacity: 0.8;
-    filter:alpha(opacity=40); /* For IE8 and earlier */
-    width: 100%;
+p, h1{
+  font-size: 16px;
+  color: #F39C12;
+  padding: 0px 15px 5px 15px;
+}
+
+.parrafoInfo, h1{
+  text-align:center;
+}
+
+#contenidoPrincipal{
+  width: 95%;
+  height:fit-content;	 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  z-index: -1;
+}
+
+.presentacion{
+  width: 750px;
+  height: auto;
+  background-color: #32344f;
+  opacity: 85%;
+  border-radius: 20px;
+  float:left;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#imagenTituloPrincipal{
+  width: 400px;
+  height: 425px;
+  float: right;
+  margin: 10px;
+  border: 5px;
+  border-radius: 20px;
+  background-image: url(/img/gym2_1.jpg);
+}
+
+#imagenSecundaria{
+  background-image: url(/img/gym3_1.jpg);
+  width: 700px;
+  height: 425px;
+  float:left;
+  margin: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+#complementario{
+  width: 400px;
+  height: auto;
+  background-color: #32344f;
+  opacity: 85%;
+  border-radius: 20px;
+  float: right;
+  padding: 10px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#datosFooter{
+  background-color:#F39C12;
+  opacity: 70%;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 3px;
+  position:fixed;
+  bottom: 0;
+}
+
+#parrafoFooter{
+  color: black;
+  font-weight: 600;
+  text-align:center;
+  margin-top: 12px;
+}
+
+
+@media all and (min-width: 750px) and (max-width: 1100px){
+
+body{
+   background-image: url(/img/gym1.jpg);
+   background-repeat:round;
+   background-size: 99%;
+   background-position-x: center;
+   background-position-y:top;
+   background-color: #F39C12;
+   background-attachment:fixed;
+   font-family: 'Roboto', sans-serif, Arial, Helvetica;
+   background-size: 99%;
+}
+
+header{
+  height:fit-content;
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+  opacity: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgLogo{
+    width: 180px;
+    height: 60px;
+    margin: 15px 0px 10px 10px;
+}
+
+#botoneraPrincipal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#F39C12;
+  opacity: 80%;
+}
+
+.listItem a {
+  float: left;
+  display: block;
+  color:black;
+  font-weight:600;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration:none;
+}
+
+.listItem a:hover {
+  background-color:green;
+  color: white;
+}
+
+p, h1{
+  font-size: 14px;
+  color: #F39C12;
+  padding: 0px 15px 5px 15px;
+}
+
+.parrafoInfo, h1{
+  text-align:center;
+}
+
+#contenidoPrincipal{
+  width: 95%;
+  height:fit-content;	 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  z-index: -1;
+}
+
+.presentacion{
+  width: 100%;
+  height: auto;
+  background-color: #32344f;
+  opacity: 85%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#imagenTituloPrincipal{
+  width: 400px;
+  height: 425px;
+  border-radius: 20px;
+  background-image: url(/img/gym2_1.jpg);
+}
+
+#imagenSecundaria{
+  background-image: url(/img/gym3_1.jpg);
+  width: 650px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#complementario{
+  width: 100%;
+  height: auto;
+  background-color: #32344f;
+  opacity: 85%;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#datosFooter{
+  background-color:#F39C12;
+  opacity: 70%;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 3px;
+  position:fixed;
+  bottom: 0;
+}
+
+#parrafoFooter{
+  color: black;
+  font-weight: 600;
+  text-align:center;
+  margin-top: 12px;
+}
+}
+
+
+@media all and (min-width: 400px) and (max-width: 749px){
+
+body{
+   background-size: 99%;
+   background-image: none;
+   background-color: wheat;
+   font-family: 'Roboto', sans-serif, Arial, Helvetica;
+}
+
+header{
+  height:fit-content;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgLogo{
+    width: 180px;
+    height: 60px;
+}
+
+#botoneraPrincipal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#F39C12;
+  opacity: 80%;
+}
+
+.listItem a {
+  float: left;
+  display: block;
+  color:black;
+  font-weight:600;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration:none;
+}
+
+.listItem a:hover {
+  background-color:green;
+  color: white;
+}
+
+p, h1{
+  font-size: 12px;
+  color: #F39C12;
+  padding: 0px 5px 5px 5px;
+}
+
+.parrafoInfo, h1{
+  text-align:center;
+}
+
+#contenidoPrincipal{
+  width: 95%;
+  height:fit-content;	 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  z-index: -1;
+}
+
+.presentacion{
+  width: 100%;
+  height: auto;
+  background-color: #32344f;
+  opacity: 85%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#imagenTituloPrincipal{
+  background-image: url(/img/gym2_1.jpg);
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 325px;
+  border-radius: 10px;
+}
+
+#imagenSecundaria{
+  background-image: url(/img/gym3_1.jpg);
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 350px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#complementario{
+  width: 100%;
+  height: auto;
+  background-color: #32344f;
+  opacity: 85%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+}
+
+#datosFooter{
+  background-color:#F39C12;
+  opacity: 70%;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 3px;
+  position:fixed;
+  bottom: 0;
+}
+
+#parrafoFooter{
+  color: black;
+  font-weight: 600;
+  text-align:center;
+  margin-top: 12px;
+}  
+}
+
+#googleMap{
+  float: right;
+  margin: 10px;
+}
+
+#propGoogleMap{
+  width: 400px;
+  height: 250px;
+  border: 5px;
+  border-radius: 20px;
 }

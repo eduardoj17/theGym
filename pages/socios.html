@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>TheGym</title>
+    <link rel="icon" href="../img/logoTheGymv5.ico">
+ 
+</head>
+<body>
+    <header>
+        <div id="divMarca">
+            <a href="../index.html">
+                <img id="imgLogo" src="../img/logoTheGymv5.png" alt="logoTheGym">
+            </a>
+        </div>
+
+        <nav>
+            <ul id="botoneraPrincipal">
+                <li class="listItem"><a href="../index.html">Inicio</a></li>
+                <li class="listItem"><a href="../pages/servicios.html">Servicios</a></li>
+                <li class="listItem"><a href="../pages/socios.html">Socios</a></li>
+                <li class="listItem"><a href="../pages/contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="contenidoPrincipal">
+        <div id="contImagen1">
+            
+            <h1 id="tituloPrincipal">El gimnasio de Charlie, ven a entrenar con nosotros</h1>
+        </div>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Persona:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" size="40" maxlength="30" required placeholder="Pedro Alfonso"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" size="40" maxlength="30" placeholder="Perez"><br><br>
+  <label for="email" >Email:</label>
+  <input type="email" id="email" name="email" value="@correo.com" size="45"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <label for="educacion">Estudios alcanzados</label>
+  <span>
+  <input type="checkbox" name="primaria" id="primaria">primaria
+  <input type="checkbox" name="secundario" id="secundario">secundario
+  <input type="checkbox" name="terciario" id="terciario">terciario
+  </span>
+  <br>
+  <label for="cometario">Reporte su reclamo:</label>
+  <textarea name="message" rows="10" cols="150" id="comentario"></textarea>
+  <br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Delete">
+  <input type="file" value="Archivo">
+ </fieldset>
+</form>
+
+
+
+</body>
+</html>
