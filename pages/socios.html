@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylePageSocios.css">
     <title>TheGym</title>
     <link rel="icon" href="../img/logoTheGymv5.ico">
  
@@ -29,39 +30,55 @@
 
 
     <section id="contenidoPrincipal">
-        <div id="contImagen1">
-            
-            <h1 id="tituloPrincipal">El gimnasio de Charlie, ven a entrenar con nosotros</h1>
+        <div id="presentacionInscripcion">
+            <p id="parrafoInscripcion">Registrate aqui</p>
+        </div>
+        <div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formNombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="formApellido">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Direccion Calle o Avenida</label>
+                    <input type="text" class="form-control" id="formDireccion" placeholder="Av. rivadavia 3424">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Departamento/Casa</label>
+                    <input type="text" class="form-control" id="formDepartamento" placeholder="Numero">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="formCiudad">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Plan a Elegir</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Todo incluido</option>
+                        <option>Musculación (Gimnasio)</option>
+                        <option>Horario Mañana</option>
+                        <option>Zumba</option>
+                        <option>CrossFit</option>
+                        <option>Yoga</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Inscribirme</button>
+                </div>
+            </form>
         </div>
 
-<form action="/action_page.php">
- <fieldset>
-  <legend>Persona:</legend>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname" size="40" maxlength="30" required placeholder="Pedro Alfonso"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" size="40" maxlength="30" placeholder="Perez"><br><br>
-  <label for="email" >Email:</label>
-  <input type="email" id="email" name="email" value="@correo.com" size="45"><br><br>
-  <label for="birthday">Birthday:</label>
-  <input type="date" id="birthday" name="birthday"><br><br>
-  <label for="educacion">Estudios alcanzados</label>
-  <span>
-  <input type="checkbox" name="primaria" id="primaria">primaria
-  <input type="checkbox" name="secundario" id="secundario">secundario
-  <input type="checkbox" name="terciario" id="terciario">terciario
-  </span>
-  <br>
-  <label for="cometario">Reporte su reclamo:</label>
-  <textarea name="message" rows="10" cols="150" id="comentario"></textarea>
-  <br>
-  <input type="submit" value="Submit">
-  <input type="reset" value="Delete">
-  <input type="file" value="Archivo">
- </fieldset>
-</form>
+    </section>
 
-
+    <footer>
+        <div id="datosFooter">
+            <p id="parrafoFooter">Av. CALLAO 419. Buenos Aires CABA. Argentina Código Postal: 1089.</p>
+        </div>
+    </footer>
 
 </body>
 </html>

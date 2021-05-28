@@ -7,14 +7,9 @@ body{
    background-color: white;
    background-attachment:fixed;
    font-family: 'Roboto', sans-serif, Arial, Helvetica;
-   height:1200px;
 }
 
 header{
-  position:-webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
   height:fit-content;
   background-color: black;
   opacity: 85%;
@@ -67,6 +62,16 @@ h1, h2{
   text-align:center;
 }
 
+#enConstruccion{
+    font-size: 60px;
+    text-align: center;
+}
+
+#parrafoInscripcion{
+    font-size: 20px;
+    text-align: center;
+}
+
 #contenidoPrincipal{
   width: 80%;
   height:fit-content;	 
@@ -89,36 +94,50 @@ h1, h2{
   box-sizing: border-box;
 }
 
-#imagenTituloPrincipal{
-  width: 350px;
-  height: 425px;
-  float: right;
-  margin: 25px;
-  border-radius: 20px;
-  background-image: url(/img/gym2_1.jpg);
-}
-
-#imagenSecundaria{
-  width: 600px;
-  height: 400px;
-  float:left;
-  margin-top: 50px;
-  margin-bottom: 70px;
-  border-radius: 20px;
-  background-image: url(/img/gym3_1.jpg);
-}
-
-#complementario{
-  width: 200px;
+#presentacionSocios{
+  width: auto;
   height: auto;
   background-color: #32344f;
   opacity: 85%;
   border-radius: 20px;
-  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
   padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 70px;
+  box-sizing: border-box;
 }
+
+#presentacionInscripcion{
+  width: 200px;
+  height: 50px;
+  background-color: #32344f;
+  opacity: 85%;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#botones{
+    float: left;
+    margin-bottom: 60px;
+    margin-left: 80px;
+}
+
+#googleMap{
+  float: right;
+  margin: 10px;
+}
+
+#propGoogleMap{
+  width: 400px;
+  height: 250px;
+  border: 5px;
+  border-radius: 20px;
+}
+
 
 #datosFooter{
   background-color:#F39C12;
@@ -154,10 +173,6 @@ body{
 
 header{
   height:fit-content;
-  position:-webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
   background-color: black;
   opacity: 85%;
 }
@@ -215,7 +230,6 @@ h1, h2{
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  z-index: -1;
 }
 
 .presentacion{
@@ -229,34 +243,23 @@ h1, h2{
   box-sizing: border-box;
 }
 
-#imagenTituloPrincipal{
-  background-image: url(/img/gym2_1.jpg);
-  width: 56%;
-  margin-right: 22%;
-  margin-left: 22%;
-  height: 325px;
-  border-radius: 10px;
+#botones{
+    float: left;
+    margin-bottom: 60px;
+    margin-left: 40px;
 }
 
-#imagenSecundaria{
-  background-image: url(/img/gym3_1.jpg);
-  width: 66%;
-  margin-right: 17%;
-  margin-left: 17%;
-  height: 350px;
-  border-radius: 20px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
+#googleMap{
+  float: right;
+  margin: 10px;
+  margin-bottom: 50px;
 }
 
-#complementario{
-  width: 90%;
-  height: auto;
-  background-color: #32344f;
-  opacity: 85%;
+#propGoogleMap{
+  width: 400px;
+  height: 250px;
+  border: 5px;
   border-radius: 20px;
-  padding: 10px;
-  margin: 20px 5% 60px 5%;
 }
 
 #datosFooter{
@@ -361,36 +364,16 @@ h1, h2{
   box-sizing: border-box;
 }
 
-#imagenTituloPrincipal{
-  background-image: url(/img/gym2_1.jpg);
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
-  height: 325px;
-  border-radius: 10px;
+#googleMap{
+  float: right;
+  margin: 10px;
 }
 
-#imagenSecundaria{
-  background-image: url(/img/gym3_1.jpg);
-  width: 90%;
-  margin-right: 5%;
-  margin-left: 5%;
-  height: 350px;
+#propGoogleMap{
+  width: 400px;
+  height: 250px;
+  border: 5px;
   border-radius: 20px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-}
-
-#complementario{
-  width: 100%;
-  height: auto;
-  background-color: #32344f;
-  opacity: 85%;
-  border-radius: 10px;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 60px;
-  box-sizing: border-box;
 }
 
 #datosFooter{
@@ -411,14 +394,3 @@ h1, h2{
 }  
 }
 
-#googleMap{
-  float: right;
-  margin: 10px;
-}
-
-#propGoogleMap{
-  width: 400px;
-  height: 250px;
-  border: 5px;
-  border-radius: 20px;
-}
